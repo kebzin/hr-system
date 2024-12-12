@@ -62,5 +62,30 @@ Maintain detailed audit trails for compliance and accountability.
 Seamlessly integrate with third-party tools such as tax software, banking platforms, and productivity tools.
 Scalable to meet the needs of growing businesses.
 
+<h1>App Architecture</h1>
+*Bun
+*React
+*TypeScript
+*Nextjs
+*Supabase
+*Shadcn
+*Expo
+*TailwindCSS
+
+<h3>Hosting</h3>
+*Supabase (database, storage, *realtime, auth)
+*Upstash (redis)
+*Services
+*Trigger.dev (background jobs)
+*Resend (Transactional & Marketing)
+*Novu (notifications)
+*Github Actions (CI/CD)
+*GoCardLess (Bank connection )
+*Plaid (Bank connection)
+*Teller (Bank connection in the )
+*OpenPanel (Events and Analytics)
+*Dub (Short URLs)
+*Polar (Payment processing)
+*Typesense (Search)
 
 
