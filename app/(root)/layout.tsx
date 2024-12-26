@@ -5,7 +5,6 @@ import { Nunito } from "next/font/google";
 // import TopBar from "@/components/common/TopBar";
 // import Sidebar from "@/components/common/Sidebar";
 import { Toaster } from "sonner";
-import { ourFileRouter } from "../api/uploadthing/core";
 import { SessionProvider } from "next-auth/react";
 import { auth } from "@/auth";
 import {
@@ -17,7 +16,6 @@ import { AppSidebar } from "@/components/app-sidebar";
 import { Separator } from "@/components/ui/separator";
 
 // import BreadCrum from "@/components/BreadCrum";
-import BreadcrumbComponent from "@/components/BreadCrum";
 import AppTopbar from "@/components/app-topbar";
 // import "@uploadthing/react/styles.css";
 
